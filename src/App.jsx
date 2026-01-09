@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 // --- IMPORT YOUR IMAGES HERE ---
-import honeyJarCloseup from './assets/honey-jar-closeup.webp';
-import beehiveFarm from './assets/beehive-farm.webp';
-import honeyDrizzle from './assets/honey-drizzle.webp';
-import honeySpread from './assets/honey-spread.webp';
-import workerBee from './assets/worker-bee.webp';
+import honeyJarCloseup from './assets/honey-jar-closeup.jpeg';
+import beehiveFarm from './assets/beehive-farm.jpeg';
+import honeyDrizzle from './assets/honey-drizzle.jpeg';
+import honeySpread from './assets/honey-spread.jpeg';
+import workerBee from './assets/worker-bee.jpeg';
 // --- END IMAGE IMPORTS ---
 
 const PRODUCTS = [
