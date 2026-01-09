@@ -20,9 +20,9 @@ const BENEFITS = [
 ];
 
 const REVIEWS = [
-  { name: "Sarah W.", text: "The best honey I've tasted in Nairobi! Very thick and pure.", rating: "⭐⭐⭐⭐⭐" },
-  { name: "John M.", text: "Fast delivery and the 1kg jar is great value for money.", rating: "⭐⭐⭐⭐⭐" },
-  { name: "Mercy K.", text: "My kids love this honey. Perfect for breakfast!", rating: "⭐⭐⭐⭐⭐" }
+  { name: "Martin Ndung'u.", text: "The best honey I've tasted in Nairobi! Very thick and pure.", rating: "⭐⭐⭐⭐⭐" },
+  { name: "Tony Kabda", text: "Fast delivery and the 1kg jar is great value for money.", rating: "⭐⭐⭐⭐⭐" },
+  { name: "Winnie C.", text: "My kids love this honey. Perfect for breakfast!", rating: "⭐⭐⭐⭐⭐" }
 ];
 
 // --- GALLERY IMAGES ARRAY ---
@@ -37,7 +37,7 @@ const GALLERY_IMAGES = [
 
 function App() {
   const [cart, setCart] = useState({ size: '500g', qty: 1, price: 600 });
-  const PHONE_NUMBER = "254XXXXXXXXX"; // Change to your WhatsApp number
+  const PHONE_NUMBER = "254710479900"; // Change to your WhatsApp number
 
   const handleSizeChange = (e) => {
     const selected = PRODUCTS.find(p => p.size === e.target.value);
@@ -120,7 +120,7 @@ function App() {
       </section>
 
       <footer className="footer">
-        <p>&copy; 2024 Felixo-Honey. All Rights Reserved.</p>
+        <p>&copy; 2026 Felixo-Honey. All Rights Reserved.</p>
       </footer>
     </div>
   );
